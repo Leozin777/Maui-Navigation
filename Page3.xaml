@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.Page3"
+             Title="Page3">
+    <VerticalStackLayout>
+        <Label
+            x:Name="LabelText"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Title"/>
+
+        <Entry
+            x:Name="TextBox2"
+            Text=""/>
+
+        <Button
+            x:Name="Page2Btn"
+            Text="Page2"
+            Clicked="Button_Page2"
+            HorizontalOptions="Center"
+            Margin="20"/>
+
+        <Button
+            x:Name="MainPageBtn"
+            Text="MainPage"
+            Clicked="Button_MainPage"
+            HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

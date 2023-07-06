@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.Page2"
+             Title="Page2">
+    <VerticalStackLayout>
+        <Label 
+            Text="Bem vindo a segunda pagina"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Title"/>
+
+        <Button 
+            x:Name="MainPageBtn"
+            Text="MainPage"
+            Clicked="Button_MainPage"
+            HorizontalOptions="Center"
+            Margin="20"/>
+
+        <Button
+            x:Name="Page3Btn"
+            Text="Page3"
+            Clicked="Button_Page3"
+            HorizontalOptions="Center"/>
+
+        <Entry
+            x:Name="TextBox"
+            Placeholder="Digite um nome"/>
+        <Button
+            x:Name="TextBtn"
+            Clicked="Button_Text"
+            Text="Exibir"
+            BackgroundColor="Green"
+            HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
